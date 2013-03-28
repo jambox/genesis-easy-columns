@@ -43,4 +43,7 @@ You must have the necessary CSS to format the columns.  Genesis users should hav
 
 == Changelog ==
 
+= 1.0 =
+* Plugin Release
+
 == Upgrade Notice == 
