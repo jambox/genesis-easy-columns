@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Easily add Genesis column shortcodes to your WordPress editor.
 
 == Description ==
-This plugin easily integrates Genesis column classes into your WordPress editor.  With the click of a button, you can now add column class shortcodes to your page or post.  You will no longer have to know any html or css.  Use the power of the built in Genesis column classes, with the simple click of a button.
+This plugin easily integrates Genesis column classes into your WordPress editor.  With the click of a button, you can now add column class shortcodes to your page or post.  You will no longer have to know any HTML or CSS.  Use the power of the built in Genesis column classes, with the simple click of a button.
 
 Includes 2, 3, 4, 5, and 6 column classes.
 
@@ -34,7 +34,7 @@ The easy insert buttons are located in your WordPress editor.  They will be visi
 
 = The columns are not formatting? =
 
-You must have the necessary css to format the columns.  Genesis users should have this in your styles.css.  Non-Genesis users should convert, but if you want to stick with your current theme- simply use the optional css loacted in the plugin directory and add it to your themes css.   
+You must have the necessary CSS to format the columns.  Genesis users should have this in your styles.css.  Non-Genesis users should convert, but if you want to stick with your current theme- simply use the optional CSS loacted in the plugin directory and add it to your themes CSS.   
 
 == Screenshots ==
 
