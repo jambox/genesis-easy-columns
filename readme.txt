@@ -19,6 +19,8 @@ Includes 2, 3, 4, 5, and 6 column classes.
 
 **Not a Genesis User, I have included the necessay CSS within the plugin.  Simply copy the CSS code to your themes CSS**
 
+Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services and custom <a href="http://www.code96wd.com/product-category/child-themes/">WordPress Themes</a>.
+
 
 == Installation ==
 1.  Upload the zip file to the /wp-content/plugins/ directory.
