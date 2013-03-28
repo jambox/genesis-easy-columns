@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Genesis Easy Columns
-Plugin URI: 
+Plugin URI: http://www.code96wd.com/genesis-easy-columns
 Description: Easily add Genesis column shortcodes to your WordPress editor.
 Version: 1.0
 Author: Matthew Smith
