@@ -22,11 +22,11 @@
 
 	//Registers TinyMCE Plugins
 	function gc_add_plugin($plugin_array) {  
-	   $plugin_array['column'] = plugins_url('genesis-columns').'/includes/shortcodes.js';
-	   $plugin_array['one-half'] = plugins_url('genesis-columns').'/includes/shortcodes.js'; 
-	   $plugin_array['one-third'] = plugins_url('genesis-columns').'/includes/shortcodes.js'; 
-	   $plugin_array['one-fourth'] = plugins_url('genesis-columns').'/includes/shortcodes.js'; 
-	   $plugin_array['one-fifth'] = plugins_url('genesis-columns').'/includes/shortcodes.js'; 
-	   $plugin_array['one-sixth'] = plugins_url('genesis-columns').'/includes/shortcodes.js'; 
+	   $plugin_array['column'] = plugins_url('genesis-easy-columns').'/includes/shortcodes.js';
+	   $plugin_array['one-half'] = plugins_url('genesis-easy-columns').'/includes/shortcodes.js'; 
+	   $plugin_array['one-third'] = plugins_url('genesis-easy-columns').'/includes/shortcodes.js'; 
+	   $plugin_array['one-fourth'] = plugins_url('genesis-easy-columns').'/includes/shortcodes.js'; 
+	   $plugin_array['one-fifth'] = plugins_url('genesis-easy-columns').'/includes/shortcodes.js'; 
+	   $plugin_array['one-sixth'] = plugins_url('genesis-easy-columns').'/includes/shortcodes.js'; 
 	   return $plugin_array;  
 	}  
