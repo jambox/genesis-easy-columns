@@ -25,6 +25,7 @@ Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services a
 == Installation ==
 1.  Upload the zip file to the /wp-content/plugins/ directory.
 2.  Activate the plugin through the 'Plugins' menu in WordPress.
+3.  Non-Genesis users may activate the optional css via Settings > Easy Columns.  
 
 == Frequently Asked Questions ==
 
@@ -34,7 +35,7 @@ The easy insert buttons are located in your WordPress editor.  They will be visi
 
 = The columns are not formatting? =
 
-You must have the necessary CSS to format the columns.  Genesis users should have this in your styles.css.  Non-Genesis users should convert, but if you want to stick with your current theme- simply use the optional CSS loacted in the plugin directory and add it to your themes CSS.   
+Version 1.1 added an option for non-Genesis users to add the optional CSS via Settings > Easy Columns.  You must have the necessary CSS to format the columns.  Genesis users should have this in your styles.css.  Non-Genesis users should convert, but if you want to stick with your current theme- simply use the optional CSS loacted in the plugin directory and add it to your themes CSS.   
 
 == Screenshots ==
 
@@ -42,6 +43,15 @@ You must have the necessary CSS to format the columns.  Genesis users should hav
 2. This screenshot contains all available column classes.
 
 == Changelog ==
+
+= 1.1 =
+Added two new visual editor buttons and shortcodes:
+
+Clear [clear] and Clear-Line [clear-line]
+
+These options will enable a clear fix between columns and content.  
+
+Also, added a settings page under Settings > Easy Columns for non-Genesis users to activate the optional CSS to style the columns. 
 
 = 1.0 =
 * Plugin Release
