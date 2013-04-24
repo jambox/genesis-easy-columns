@@ -17,7 +17,7 @@ This plugin easily integrates Genesis column classes into your WordPress editor.
 Includes 2, 3, 4, 5, and 6 column classes.
 
 
-**Not a Genesis User, I have included the necessary CSS within the plugin.  Simply copy the CSS code to your themes CSS**
+**Not a Genesis User, I have included the necessary CSS within the plugin.  You can activate the optional CSS via Settings > Easy Columns or simply copy/paste into your themes style.css.**
 
 Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services and custom <a href="http://www.code96wd.com/premium-wordpress-themes/">WordPress Themes</a>.
 
