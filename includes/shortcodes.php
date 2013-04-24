@@ -53,6 +53,17 @@
 	return '<div class="one-sixth">' .$content. '</div>';
 	}
 	add_shortcode('one-sixth','gc_one_sixth');
+	
+	function gc_clear($atts) {
+	return '<div class="clear"></div>';
+	}
+	add_shortcode('clear','gc_clear');
+	
+	function gc_clear_line($atts) {
+	return '<div class="clear-line"></div>';
+	}
+	add_shortcode('clear-line','gc_clear_line');
+	
 
 	//Turn auto format back on
 	add_filter( 'the_content', 'wpautop' , 12);

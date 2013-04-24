@@ -73,3 +73,13 @@
 	clear: both;
 	padding-left: 0;
 }
+
+.clear {
+	clear: both;
+}
+
+.clear-line {
+	border-bottom: 1px solid #ddd;
+	clear: both;
+	margin: 0 0 15px;
+}

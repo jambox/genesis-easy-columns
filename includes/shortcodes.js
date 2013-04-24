@@ -61,6 +61,26 @@
                 }  
 				
             }); 
+			
+			ed.addButton('clear', {  
+                title : 'Add clear fix.',  
+                image : url+'/images/clear.png',  
+                onclick : function() {  
+                     ed.selection.setContent('[clear]');  
+
+                }  
+				
+            }); 
+			
+			ed.addButton('clear-line', {  
+                title : 'Add clear fix line.',  
+                image : url+'/images/clear-line.png',  
+                onclick : function() {  
+                     ed.selection.setContent('[clear-line]');  
+ 
+                }  
+				
+            }); 
         },  
         createControl : function(n, cm) {  
             return null;  
@@ -72,4 +92,6 @@
 	tinymce.PluginManager.add('one-fourth', tinymce.plugins.shortcodes); 
 	tinymce.PluginManager.add('one-fifth', tinymce.plugins.shortcodes); 
 	tinymce.PluginManager.add('one-sixth', tinymce.plugins.shortcodes); 
+	tinymce.PluginManager.add('clear', tinymce.plugins.shortcodes); 
+	tinymce.PluginManager.add('clear-line', tinymce.plugins.shortcodes); 
 })();
