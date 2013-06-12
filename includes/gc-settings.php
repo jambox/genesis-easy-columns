@@ -23,7 +23,7 @@ function gc_myplugin_settings() {
 				<table>
 					<tr>
 						<td style="padding:15px;"><label class="description" for="gc_settings[enabled]">Enable Optional CSS: </label></td>
-						<td style="padding:15px;"><input id="gc_settings[enabled]" name="gc_settings[enabled]" type="checkbox" value="1" <?php checked(1, $gc_options['enabled']); ?> />
+						<td style="padding:15px;"><input id="gc_settings[enabled]" name="gc_settings[enabled]" type="checkbox" value="1" <?php checked(1, isset($gc_options['enabled'])); ?> />
 					</tr>
 					<tr>
 						<td style="padding:15px;"><input type="submit" class="button-primary" value="Save Options" /></td>
