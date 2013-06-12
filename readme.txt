@@ -44,6 +44,9 @@ Version 1.1 added an option for non-Genesis users to add the optional CSS via Se
 
 == Changelog ==
 
+= 1.1.1 =
+Fixed warning when used with PHP 5.4
+
 = 1.1 =
 Added two new visual editor buttons and shortcodes:
 
