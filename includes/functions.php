@@ -47,7 +47,7 @@
 		//Disables style-custom.php if disable checkbox in Theme Options is selected.
 		//$disable = of_get_option('disable_stylesheet');
 		//echo $gc_options['enabled'];
-		if ($gc_options['enabled'] == true)
+		if (isset($gc_options['enabled']) && ($gc_options['enabled'] == true))
 		{
 			add_action('wp_enqueue_scripts', 'gc_optional_css');
 

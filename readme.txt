@@ -4,8 +4,8 @@ Contributors: Code96
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=63NWD4R6PNC76
 Tags: genesis columns, genesis columns shortcode, columns, wordpress columns, wp columns, column shortcode, column editor, columns, column, magazine layout, magazine columns
 Requires at least: 3.2
-Tested up to: 3.5.1
-Stable tag: 1.1
+Tested up to: 3.5.2
+Stable tag: 1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,7 +17,7 @@ This plugin easily integrates Genesis column classes into your WordPress editor.
 Includes 2, 3, 4, 5, and 6 column classes.
 
 
-**Not a Genesis User, I have included the necessary CSS within the plugin.  Simply copy the CSS code to your themes CSS**
+**Not a Genesis User, I have included the necessary CSS within the plugin.  You can activate the optional CSS via Settings > Easy Columns or simply copy/paste into your themes style.css.**
 
 Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services and custom <a href="http://www.code96wd.com/premium-wordpress-themes/">WordPress Themes</a>.
 
@@ -25,6 +25,7 @@ Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services a
 == Installation ==
 1.  Upload the zip file to the /wp-content/plugins/ directory.
 2.  Activate the plugin through the 'Plugins' menu in WordPress.
+3.  Non-Genesis users may activate the optional css via Settings > Easy Columns.  
 
 == Frequently Asked Questions ==
 
@@ -34,7 +35,7 @@ The easy insert buttons are located in your WordPress editor.  They will be visi
 
 = The columns are not formatting? =
 
-You must have the necessary CSS to format the columns.  Genesis users should have this in your styles.css.  Non-Genesis users should convert, but if you want to stick with your current theme- simply use the optional CSS loacted in the plugin directory and add it to your themes CSS.   
+Version 1.1 added an option for non-Genesis users to add the optional CSS via Settings > Easy Columns.  You must have the necessary CSS to format the columns.  Genesis users should have this in your styles.css.  Non-Genesis users should convert, but if you want to stick with your current theme- simply use the optional CSS loacted in the plugin directory and add it to your themes CSS.   
 
 == Screenshots ==
 
@@ -42,6 +43,21 @@ You must have the necessary CSS to format the columns.  Genesis users should hav
 2. This screenshot contains all available column classes.
 
 == Changelog ==
+
+= 1.2 =
+Allows nested shortcodes
+
+= 1.1.1 =
+Fixed warning when used with PHP 5.4
+
+= 1.1 =
+Added two new visual editor buttons and shortcodes:
+
+Clear [clear] and Clear-Line [clear-line]
+
+These options will enable a clear fix between columns and content.  
+
+Also, added a settings page under Settings > Easy Columns for non-Genesis users to activate the optional CSS to style the columns. 
 
 = 1.0 =
 * Plugin Release
