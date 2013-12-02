@@ -44,6 +44,9 @@ Version 1.1 added an option for non-Genesis users to add the optional CSS via Se
 
 == Changelog ==
 
+= 1.3 =
+Fixed bug that was adding <p> tags and line breaks to forms.
+
 = 1.2 =
 Allows nested shortcodes
 

@@ -1,6 +1,10 @@
 <?php
+
 	//Turn editor auto format off
-	remove_filter( 'the_content', 'wpautop' );
+	$wpautop_on = has_filter('the_content', 'wpautop');
+	if ($wpautop_on) {
+		remove_filter( 'the_content', 'wpautop' );
+	}
 	
 	//Column Shortcodes
 	
@@ -66,4 +70,6 @@
 	
 
 	//Turn auto format back on
-	add_filter( 'the_content', 'wpautop' , 12);
+	if ($wpautop_on) {
+		add_filter( 'the_content', 'wpautop', (is_int($wpautop_on) ? $wpautop_on : 10));
+	}
