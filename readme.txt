@@ -45,7 +45,7 @@ Version 1.1 added an option for non-Genesis users to add the optional CSS via Se
 == Changelog ==
 
 = 1.3.1 =
-Removed filter to disable wpautop.  Plugin will now strip all added <p>, <br>, etc.  
+Removed filter to disable wpautop.  Plugin will now strip all added html tags.
 
 = 1.3.1 =
 Updated plugin info.
